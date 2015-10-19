@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://itsromack.github.io
+title: Romack Natividad
+tagline: Tiny Blog
+description: Tiny Blog of Romack Natividad
+paginate: 5
