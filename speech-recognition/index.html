@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+<title>Tagatukoy ng Sinalita</title>
+</head>
+<body>
+<h1>Speech Recognition</h1>
+<div>
+	<textarea id='transkripsyon' cols='200' rows='7'></textarea>
+</div>
+<div>
+	<input id='umpisahan' type='button' value='Start Talking' />
+	<input id='tapusin' type='button' value='Stop Talking' />
+	<input id='burahin' type='button' value='Clear Transcription' />
+</div>
+<div>
+	<input id='pansamantala' type='text' size='200' />
+</div>
+<script type='text/javascript' src='js/Tagatukoy.js'></script>
+<script type="text/javascript">
+window.onload = function() {
+	var tagatukoy = new Tagatukoy('en-US', 'transkripsyon', 'umpisahan', 'tapusin', 'burahin');
+	tagatukoy.initialize();
+};
+</script>
+</body>
+</html>
