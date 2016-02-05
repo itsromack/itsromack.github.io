@@ -1,6 +1,7 @@
 ---
 published: true
-title: Kamusta Mundo!
+title: Hello World!
 layout: post
 ---
-Ito ang aking unang microblog gamit ang TinyProess
+This tinypress blog using github is interesting.
+
